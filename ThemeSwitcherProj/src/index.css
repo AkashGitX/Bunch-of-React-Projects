@@ -1,17 +1,4 @@
 @import "tailwindcss";
 
-
-@import "tailwindcss";
-
+/* Enable manual dark mode using the .dark class */
 @custom-variant dark (&:where(.dark, .dark *));
-
-html,
-body,
-#root {
-    min-height: 100%;
-    margin: 0;
-}
-
-body {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
